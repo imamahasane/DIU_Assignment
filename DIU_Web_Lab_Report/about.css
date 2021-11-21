@@ -1,0 +1,107 @@
+*{margin: 0; padding: 0;}
+body{
+    background-color:#EEE8AE;
+}
+#header h2{
+    font-variant:small-caps;
+    margin-left: 100px;
+}
+#header{
+    background-color: #FAB72A;
+    padding: 15px;
+    border-top: 5px solid #605B5B;
+}
+#header p{
+    margin-left: 1000px;
+    background: #FAB72A;
+}
+#wrapper{
+    width: 960px;
+    display: block;
+    margin: 20px auto;
+}
+.floatright{
+    float: right;
+    padding: 8px;
+}
+.floatright input[type="submit"]{
+    cursor: pointer;
+}
+#notafication{
+    float: right;
+    cursor: pointer;
+    padding-right: 10px;
+}
+#profile{
+    float: right;
+    cursor: pointer;
+    padding-right: 15px;
+    margin-top: 2px;
+}
+#menu li img{
+    cursor: pointer;
+    height: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#menu{
+    font-variant:small-caps;
+    list-style-type: none;
+    padding:0; 
+    width: 100%;
+    background: #4E4E4E;
+    border-bottom: 5px solid orange;
+    min-height:38px;
+    margin:0 auto;
+}
+#menu li{
+    float:left;
+    border-right: 1px solid #605B5B;
+    border-left: 1px solid #2B2A2A;
+    position: relative;
+}
+#menu li:last-child{
+    border-right: none;
+}
+#menu li:first-child{
+    border-left: none;
+}
+#menu li a{
+    text-decoration: none;
+    color: #fff;
+    background:#4E4E4E;
+    padding: 10px 20px;
+    display: block;
+    transition:0.3s all ease;
+}
+#menu li a:hover{
+    background-color:aqua;
+}
+ul#menu li ul{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    left: -99999px;    
+}
+ul#menu li:hover ul{
+    left: 0;
+}
+ul#menu li ul li{
+    float: none;
+    border-right:none; 
+    border-left:none;
+    border-top: 1px solid #605B5B;
+    border-bottom: 1px solid #2B2A2A;
+    width: 200px;
+}
+#footer{
+    background-color: #FAB72A;
+    color: black;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border-top: 5px solid #605B5B;
+    border-bottom: 5px solid #605B5B;
+    margin-top: 550px;
+}
